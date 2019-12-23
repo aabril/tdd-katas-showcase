@@ -6,7 +6,9 @@
   "scripts": {
     "test.greeter": "jest --watchAll ./kata.greeter",
     "test.numbers": "jest --watchAll ./kata.numbers",
-    "test.string.calculator": "jest --watchAll ./kata.string.calculator"
+    "test.string.calculator": "jest --watchAll ./kata.string.calculator",
+    "test.primes": "jest --watchAll ./kata.primes"
+
   },
   "devDependencies": {
     "jest": "^24.9.0",
