@@ -18,3 +18,7 @@ test("A single number returns the value '1' => 1 '2' => 2", () => {
 test("comma delimited, returns the sum '1,2' => 3 '10,20' => 30", () => {
     expect(StringCalculator.add("1,2")).toBe(3)
 })
+
+test("Two numbers, newline delimited, returns the sum '1\n2' => 3", () => {
+    expect(StringCalculator.add("1\n2")).toBe(3)
+})
