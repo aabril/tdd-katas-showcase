@@ -1,4 +1,4 @@
-const Greeter = require('../src/kata')
+const Greeter = require('./greeter')
 const LegacyDate = Date
 
 test('should return a greeting as "Hello <name>"', () => {
