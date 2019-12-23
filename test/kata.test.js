@@ -50,11 +50,3 @@ test('greet returns Hello <name> when the time is not defined', () => {
     const greeter = new Greeter('   albert ')
     expect(greeter.greet()).toBe("Hello Albert");
 })
-
-test("greet logs into console each time it is called", () => {
-    let outputData = "";
-    storeLog = inputs => (outputData += inputs);
-    console["log"] = jest.fn(storeLog);
-    const greeter = new Greeter('   albert ')
-    expect(greeter).toBe("Hello World");
-});

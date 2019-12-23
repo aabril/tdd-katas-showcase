@@ -18,7 +18,6 @@ class Greeter {
 
     formatGreeting() {
         const datetime = new Date()
-        console.log('hours', datetime.getHours())
         const hours = datetime.getHours()
         let greeting = "Hello "
         if(hours>=6 && hours<12 ) greeting = "Good morning "
