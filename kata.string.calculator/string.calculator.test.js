@@ -22,3 +22,7 @@ test("comma delimited, returns the sum '1,2' => 3 '10,20' => 30", () => {
 test("Two numbers, newline delimited, returns the sum '1\n2' => 3", () => {
     expect(StringCalculator.add("1\n2")).toBe(3)
 })
+
+test("Three numbers, delimited either way, returns the sum '1\n2,3\n4' => 10", () => {
+    expect(StringCalculator.add("1\n2,3\n4")).toBe(10)
+})
