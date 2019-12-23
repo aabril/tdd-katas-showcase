@@ -1,7 +1,8 @@
 const StringCalculator = {
     add: (delimitedString) => {
         if(!delimitedString) return 0
-        return parseInt(delimitedString)
+        if(!delimitedString.includes(",")) return parseInt(delimitedString)
+        return delimitedString.split(",").reduce((total, element) => parseInt(total) + parseInt(element))
     }
 }
 

@@ -14,3 +14,7 @@ test("A single number returns the value '1' => 1 '2' => 2", () => {
     expect(typeof resultTwo).toBe("number");
     expect(resultTwo).toBe(2)    
 })
+
+test("comma delimited, returns the sum '1,2' => 3 '10,20' => 30", () => {
+    expect(StringCalculator.add("1,2")).toBe(3)
+})
