@@ -26,3 +26,7 @@ test("Two numbers, newline delimited, returns the sum '1\n2' => 3", () => {
 test("Three numbers, delimited either way, returns the sum '1\n2,3\n4' => 10", () => {
     expect(StringCalculator.add("1\n2,3\n4")).toBe(10)
 })
+
+test("Negative numbers throw an exception with the message '-1,2,-3' => 'negatives not allowed: -1,-3'", () => {
+    expect(() => StringCalculator.add("-1,2,-3")).toThrow();
+})
