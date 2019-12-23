@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "test.greeter": "jest --watchAll ./kata.greeter",
-    "test.numbers": "jest --watchAll ./kata.numbers"
+    "test.numbers": "jest --watchAll ./kata.numbers",
+    "test.string.calculator": "jest --watchAll ./kata.string.calculator"
   },
   "devDependencies": {
     "jest": "^24.9.0",

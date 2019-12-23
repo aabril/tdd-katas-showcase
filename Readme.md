@@ -6,7 +6,11 @@ Test suite: Jest
 wix/tdd-katas: TDD katas
 https://github.com/wix/tdd-katas
 
+Katas as are developed are the following
 
-### Greeter
+• Greeter
+• Numbers
+• String Calculator
 
-First KATA
+Please give it a look into each folder for more info.
+
