@@ -4,9 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "jest --watchAll"
+    "test.greeter": "jest --watchAll ./greeter",
+    "test.numbers": "jest --watchAll ./numbers"
   },
   "devDependencies": {
+    "jest": "^24.9.0",
     "test": "^0.6.0"
   }
 }
