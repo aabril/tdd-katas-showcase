@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test.greeter": "jest --watchAll ./greeter",
-    "test.numbers": "jest --watchAll ./numbers"
+    "test.greeter": "jest --watchAll ./kata.greeter",
+    "test.numbers": "jest --watchAll ./kata.numbers"
   },
   "devDependencies": {
     "jest": "^24.9.0",
